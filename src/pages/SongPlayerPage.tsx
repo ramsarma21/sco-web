@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import type { LyricLine, Song } from "../types";
 import { sampleSong } from "../data/sampleSong";
